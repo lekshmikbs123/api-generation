@@ -1,0 +1,33 @@
+<div class="page-header">
+        <h1>User Login</h1>
+    </div>
+    <div>
+        <input type="date" ng-model="date" >
+        <button type="button" ng-click="main.show(date)">View</button>
+        <br>
+        <br> 
+    </div>
+   
+
+    <div class="panel panel-info">    
+<div class="panel-heading" style="text-align:center"></div>
+
+    <table class="table">
+        <tr>
+            <td>id</td>
+            <td>
+                date
+            </td>
+            <td>temp</td>
+        </tr>
+        <tr ng-repeat="j in dataa">
+            <td>{{j.id1}} </td>
+            <td>{{j.date1}} </td>
+            <td>{{j.temp1}} </td>
+        </tr>
+    </table>
+    
+</div>
+    
+    
+    
